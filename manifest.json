@@ -1,0 +1,20 @@
+{
+  "name": "Art",
+	"description": "ART!",
+	"version": "1.0",
+	"content_scripts": [
+    {
+      "matches": ["http://*/"], 
+      "css" : ["art.css"]
+    }
+],
+	"incognito": "split",
+	"chrome_url_overrides": { "newtab": "art.html" },
+	"icons":
+	{
+		"16": "img/frame-16.png",
+        "128": "img/frame-128.png"
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

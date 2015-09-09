@@ -1,0 +1,50 @@
+html, body, div, span, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+	font-family: 'Merriweather';
+	text-align: center;
+	font-weight: 700;
+	color: #fff;
+	background-color: #000;
+}
+
+h1 {
+	font-size: 25px;
+	padding-top: 12%;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	border-bottom: 1px solid white;
+}
+
+#frame {
+	height: 100%;
+	background: no-repeat center center fixed; 
+	background-size: contain;
+	transition: all 0.5s ease;
+}
+
+#frame:hover{
+	opacity: .6;
+}
+
+.hidden{
+	display:none;
+}
